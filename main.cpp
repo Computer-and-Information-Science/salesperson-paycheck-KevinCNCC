@@ -9,7 +9,12 @@ int main() {
   ifstream inData;
   ofstream outData;
 
-  inData.open("testcase1.txt");
+  string fileName;
+
+  cout << "What is the file you would like to Calculate?" << endl;
+  cin >> fileName;
+
+  inData.open(fileName);
   outData.open("output.dat");
 
   string firstName, lastName;
