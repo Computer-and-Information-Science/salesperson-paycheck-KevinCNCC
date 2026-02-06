@@ -9,7 +9,7 @@ int main() {
   ifstream inData;
   ofstream outData;
 
-  inData.open("sampleinput.txt");
+  inData.open("testcase1.txt");
   outData.open("output.dat");
 
   string firstName, lastName;
